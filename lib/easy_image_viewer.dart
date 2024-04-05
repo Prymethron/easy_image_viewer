@@ -10,11 +10,11 @@ import 'src/easy_image_viewer_dismissible_dialog.dart';
 import 'src/single_image_provider.dart';
 
 export 'src/easy_image_provider.dart' show EasyImageProvider;
-export 'src/single_image_provider.dart' show SingleImageProvider;
-export 'src/multi_image_provider.dart' show MultiImageProvider;
-
 export 'src/easy_image_view.dart' show EasyImageView;
 export 'src/easy_image_view_pager.dart' show EasyImageViewPager;
+export 'src/easy_image_viewer_dismissible_dialog.dart';
+export 'src/multi_image_provider.dart' show MultiImageProvider;
+export 'src/single_image_provider.dart' show SingleImageProvider;
 
 // Defined here so we don't repeat ourselves
 const _defaultBackgroundColor = Colors.black;
